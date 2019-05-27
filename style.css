@@ -21,7 +21,7 @@
   backface-visibility: visible;
 }
 /*--- Fixed Background Image --*/
-figure {
+figure{
   position: relative;
   width: 100%;
   height: 60%;
@@ -54,7 +54,33 @@ figure {
     padding: 1rem;
 }
 
+/*Section 4*/
+.section-4.container h1{
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+.section-4.team{
+  padding: 5vmin 2vmin;
+}
 
+.section-4.card{
+  width: 22rem;
+  margin-top: 5vmin;
+}
+
+.section-4.card.card-text{
+  padding: 0.5em;
+}
+.section-4.card.card-body > a{
+  font-size: 1.5em;
+}
+.section-4.carousel-item{
+  padding-left: 1rem;
+}
+.border-radius{
+  border-radius: 340px;
+  width: 60%;
+}
 
 
 
