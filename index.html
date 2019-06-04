@@ -3,8 +3,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="X-UA Compatible" content="ie=edge"/>
 	<title>CIAJ</title>
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -13,11 +13,14 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css"
 </head>
+
 <body>
 	<header>
 		<div class="container-fluid p-0">
 			<nav class="navbar navbar-expand-lg">
-				<a class="navbar-brand" href="#">CIAJ</a>
+				<a class="navbar-brand" href="#">
+					<img src="img/logo/columna.png" alt="">
+				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -83,13 +86,13 @@
 		<section class="section-1">
 			<div class="container text-center">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 ">
 						<div class="pray">
 							<img src="img/about-us.jpg" alt="aboutUs">
 						</div>
 					</div>
-					<div class="col-md-6">
-						<div class="panel text-left">
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="panel text-left p-100">
 							<h1>¿QUIÉNES SOMOS?</h1>
 							<p class="pt-4">
 									El CIAJ lo conformamos un grupo de académicos, investigadores y expertos en tecnología preocupados por la 
@@ -98,18 +101,7 @@
 									instituciones y agentes públicos o privados relacionados, directa o indirectamente, con la impartición de justicia a operar con mayor
 									garantismo y eficiencia, en beneficio de los derechos de la sociedad y especialmente a favor de sus miembros más vulnerables.
 							</p>
-							<h1>MISIÓN</h1>
-							<p class="pt-4">
-								Reconocemos la existencia de importantes y variados retos que impiden al sistema de impartición de justicia ser
-								eficiente y efectivo; en particular, sin embargo, notamos que en plena era de la información existe un rezago en 
-								el esfuerzo de usar auténticamente las herramientas informáticas, la ciencia de datos y la estadística con el 
-								objetivo de mejorar el procesamiento de las disputas sociales, en pro de la efectividad del derecho de acceso a 
-								la justicia. Por ello, buscamos ser una plataforma que firme y objetivamente impulse la innovación en la forma 
-								de entender, administrar y medir la administración de justicia con el fin de optimizar los procesos internos, 
-								de generar conocimiento sobre mejores estrategias de prevención y resolución de conflictos sociales y de humanizar 
-								más los en sí mismos complicados procesos de solución de controversias.
-							</p>
-							<h1>VISIÓN</h1>
+							<!-- <h1>VISIÓN</h1>
 							<p class="pt-4">
 								Partimos de una premisa básica: el acceso a la justicia es un derecho fundamental, sin el cual todos los derechos y 
 								las correspondientes obligaciones consagrados en un sistema jurídico se vuelven intrascendentes. Más aún, el acceso 
@@ -121,8 +113,24 @@
 								sus usuarios y de la sociedad en su conjunto.
 							</p>
 							<h1>OBJETIVOS</h1>
+							<p class="pt-4">	
+							</p> -->
+						</div>
+					</div>
+					<br>
+					<br>
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="panel text-right  p-100">
+							<h1>MISIÓN</h1>
 							<p class="pt-4">
-								
+								Reconocemos la existencia de importantes y variados retos que impiden al sistema de impartición de justicia ser
+								eficiente y efectivo; en particular, sin embargo, notamos que en plena era de la información existe un rezago en 
+								el esfuerzo de usar auténticamente las herramientas informáticas, la ciencia de datos y la estadística con el 
+								objetivo de mejorar el procesamiento de las disputas sociales, en pro de la efectividad del derecho de acceso a 
+								la justicia. Por ello, buscamos ser una plataforma que firme y objetivamente impulse la innovación en la forma 
+								de entender, administrar y medir la administración de justicia con el fin de optimizar los procesos internos, 
+								de generar conocimiento sobre mejores estrategias de prevención y resolución de conflictos sociales y de humanizar 
+								más los en sí mismos complicados procesos de solución de controversias.
 							</p>
 						</div>
 					</div>
@@ -132,7 +140,7 @@
 		<!--SECCION 2 SERVICIOS-->
 		<!--son 5 servicios-->
 		<section class="section-2 container-fluid p-0">
-			<div class="cover">
+			<div class="cover" id="1">
 				<div class="content text-center">
 					<h1>PRIMERA PROPUESTA</h1>
 					<p>
@@ -141,123 +149,126 @@
 					</p>
 				</div>
 			</div>
+			<div class="cover" id="1">
+				<div class="content text-center">
+					<h1>SEGUNDA PROPUESTA</h1>
+					<p>
+						El estudio de esquemas preexistentes de bases de datos o bases con información ya ingresada para, por ejemplo:
+						Recomendar ajustes en los protocolos de captación de información, a fin de mejorar la relevancia y calidad de los datos (qué ingresar y cómo).
+					</p>
+				</div>
+			</div>
+
 		</section>
 		<!--SECCION 4 VALORES-->
+		<!--PARA ENTENDER COMO FUNCIONA: https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp-->
 		<section class="section-4">
 				<div class="container-fluid">
 					<div class="container">
-						<div class="col">
-							<div class="row">
-								<!--PRIMER VALOR-->
-								<div class="col-sm-4">
-									<div class="box">
-										<div class="imgBox">
-											<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="trust">
-									</div>
-									<div class="content">
-										<h3>Confianza</h3>
-										<p></p>
-										<p>
-											La construimos con propuestas realistas y aterrizadas que se ven reflejados en resultados eficientes que 
-											atienden sus necesidades.
-										</p>
-										<a href="#" class="btn btn-default btnD">Leer más</a>
-										</div>
-									</div>
+						<div class="row">
+							<!--PRIMER VALOR-->
+							<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="trust">
 								</div>
-								<!--SEGUNDO VALOR-->
-								<div class="col-sm-4">
-									<div class="box">
-										<div class="imgBox">
-											<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
-										</div>
-										<div class="content">
-											<h3>Calidad</h3>
-											<p>
-												Comprendemos las necesidades y sobre todo las particularidades en ellas, lo que nos permite tener éxito en cumplir con los objetivos
-												deseados, y aplicamos la mejora continua de nuestros procesos para este fin.
-											</p>
-										</div>
-									</div>
-								</div>
-								<!--TERCER VALOR-->
-								<div class="col-sm-4">
-									<div class="box">
-										<div class="imgBox">
-											<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
-										</div>
-										<div class="content">
-											<h3>Calidad</h3>
-											<p>
-												Comprendemos las necesidades y sobre todo las particularidades en ellas, lo que nos permite tener éxito en cumplir con los objetivos
-												deseados, y aplicamos la mejora continua de nuestros procesos para este fin.
-											</p>
-										</div>
+								<div class="content">
+									<h3>Confianza</h3>
+									<p></p>
+									<p>
+										La construimos con propuestas realistas y aterrizadas que se ven reflejados en resultados eficientes que 
+										atienden sus necesidades.
+									</p>
+									<a href="#" class="btn btn-default btnD">Leer más</a>
 									</div>
 								</div>
 							</div>
+							<!--SEGUNDO VALOR-->
+							<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
+									</div>
+									<div class="content">
+										<h3>Calidad</h3>
+										<p>
+											Comprendemos las necesidades y sobre todo las particularidades en ellas, lo que nos permite tener éxito en cumplir con los objetivos
+											deseados, y aplicamos la mejora continua de nuestros procesos para este fin.
+										</p>
+									</div>
+								</div>
+							</div>
+							<!--TERCER VALOR-->
+							<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
+									</div>
+									<div class="content">
+										<h3>Experiencia</h3>
+										<p>
+											Lo conformamos un grupo interdisciplinario de académicos y activistas que vemos el sistema judicial desde muchas perspectivas. Por ello logramos generar nuevas formas de ver el derecho.
+										</p>
+									</div>
+								</div>
+							</div>
+						
 							<!--SEGUNDA COLUMNA-->
-							<div class="row">
-								<!--CUARTO VALOR-->
-								<div class="col-sm-4">
-									<div class="box">
-										<div class="imgBox">
-											<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="trust">
-										</div>
-										<div class="content">
-											<h3>Confianza</h3>
-											<p></p>
-											<p>
-												La construimos con propuestas realistas y aterrizadas que se ven reflejados en resultados eficientes que 
-												atienden sus necesidades.
-											</p>
-											<a href="#" class="btn btn-default btnD">Leer más</a>
-										</div>
+							<!--CUARTO VALOR-->
+							<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="trust">
+									</div>
+									<div class="content">
+										<h3>Colaboración</h3>
+										<p></p>
+										<p>
+											Sumamos nuestra experiencia con la de ustedes y trabajamos de manera conjunta en los proyectos para fomentar intercambios académicos y prácticos. Brindamos acompañamiento en cada etapa de los proyectos.
+										</p>
+										<a href="#" class="btn btn-default btnD">Leer más</a>
 									</div>
 								</div>
-								<!--QUINTO VALOR-->
-								<div class="col-sm-4">
-									<div class="box">
-										<div class="imgBox">
-											<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
-										</div>
-										<div class="content">
-											<h3>Calidad</h3>
-											<p>
-												Comprendemos las necesidades y sobre todo las particularidades en ellas, lo que nos permite tener éxito en cumplir con los objetivos
-												deseados, y aplicamos la mejora continua de nuestros procesos para este fin.
-											</p>
-										</div>
+							</div>
+							<!--QUINTO VALOR-->
+							<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
+									</div>
+									<div class="content">
+										<h3>Internacional</h3>
+										<p>
+											Queremos posicionar a México como exportador de buenas prácticas en el derecho. Por ello, pensamos en mostrar los logros que vamos generando en foros internacionales.
+										</p>
 									</div>
 								</div>
-								<!--SEXTO VALOR-->
-								<div class="col-sm-4">
-									<div class="box">
-										<div class="imgBox">
-											<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
-										</div>
-										<div class="content">
-											<h3>Calidad</h3>
-											<p>
-												Comprendemos las necesidades y sobre todo las particularidades en ellas, lo que nos permite tener éxito en cumplir con los objetivos
-												deseados, y aplicamos la mejora continua de nuestros procesos para este fin.
-											</p>
-										</div>
+							</div>
+							<!--SEXTO VALOR-->
+							<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
+									</div>
+									<div class="content">
+										<h3>Innovación</h3>
+										<p>
+											Creamos nuevas metodologías que permitan a los sistemas judiciales crecer legal, tecnológica y estadísticamente.
+										</p>
 									</div>
 								</div>
-								<!--SEPTIMO VALOR-->
-								<div class="col-sm-4">
-									<div class="box">
-										<div class="imgBox">
-											<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
-										</div>
-										<div class="content">
-											<h3>Calidad</h3>
-											<p>
-												Comprendemos las necesidades y sobre todo las particularidades en ellas, lo que nos permite tener éxito en cumplir con los objetivos
-												deseados, y aplicamos la mejora continua de nuestros procesos para este fin.
-											</p>
-										</div>
+							</div>
+							<!--SEPTIMO VALOR-->
+							<div class="col-sm-12 col-md-6 col-lg-4">
+								<div class="box">
+									<div class="imgBox">
+										<img src="img/valores/trust.jpg" class="thumbnail img-responsive" alt="quality">
+									</div>
+									<div class="content">
+										<h3>Objetividad</h3>
+										<p>
+											Entendemos la dimensión de los acontecimientos para obrar de forma coherente en todos los asuntos que quedan bajo nuestro análisis y estudio e identificamos los problemas y soluciones desde todos los puntos de vista.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -265,111 +276,213 @@
 					</div>
 				</div>
 		</section>
-
-				<!--- Meet the team -->
-					
-				<div class = "container-fluid padding">
-						<div class = "row welcome text-center">
-							<div class="col-12">
-								<h1 class="display-4">Meet the...</h1>
-							</div>
-							<hr>			  
+		<!--- Meet the team -->
+		<div class = "container-fluid padding">
+					<div class = "row welcome text-center">
+						<div class="col-12">
+							<h1 class="display-4">Meet the...</h1>
 						</div>
+						<hr>			  
 					</div>
-					<!--- Cards -->
-					
-					<section class ="section-4">
-						<div class="container text-center">
-							<h1 class="text-dark"> Sobre nosotros...</h1>
-							<p class="text-secondary">Equipo CIAJ</p>
-						</div>
-						<div class="team row">
-							<div class="col-md-4 col-12 text-center">
+		</div>
+		<!--- Cards -->
+		<section class ="section-5">
+			<div class="container text-center">
+				<h1 class="text-dark"> Equipo CIAJ</h1>
+				<p class="text-secondary">Integrantes</p>
+			</div>
+			<div class="team row">
+				<div class="col-md-4 col-12 text-center">
+					<!--Carousel 1 Started-->
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+						<div class="carousel-inner ">
+							<!--1 CARD-->
+							<div class="carousel-item active text-center">
 								<div class="card mr-2 d-inline-block shadow-lg">
 									<div class="card-img-top">
-										<img src="img/team/LO.png" alt="Member" class="img-fluid" width="220" height="220>
+										<img src="img/team/LO.png" alt="Member" class="img-fluid" width="220" height="220" >
 									</div>
-									<div class="card-body">
+									<div class= "card-body">
 										<h3 class="card-title">LIESEL OBERARZBACHER</h3>
 										<p class="card-text">
-											Se ha desempeñado como investigadora del Departamento Académico de Derecho del ITAM. También ha sido consultora del World Justice Project, así como de diversas agencias del Gobierno Estatal y Federal.
-											Ha sido profesora de derecho laboral y fundamentos del derecho en las universidades del SUNEO en Oaxaca, también ha sido Abogada General de 6 de estas universidades. Ha publicado diversos artículos.
-											Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.
-											Es socia fundadora del CIAJ, responsable del área jurídica e investigación legal aplicada.
+											<!-- <p>Se ha desempeñado como investigadora del Departamento Académico de Derecho del ITAM. También ha sido consultora del World Justice Project, así como de diversas agencias del Gobierno Estatal y Federal.</p>
+											<br>		
+											<p>Ha sido profesora de derecho laboral y fundamentos del derecho en las universidades del SUNEO en Oaxaca, también ha sido Abogada General de 6 de estas universidades. Ha publicado diversos artículos.</p>
+											<br>		
+											<p>Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.</p>
+											<br>		
+											<p><strong>Es socia fundadora del CIAJ, responsable del área jurídica e investigación legal aplicada.</strong></p> -->
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Directora General</a>
 										<p class="text-black-50">Abogada e Investigadora Académica</p>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4 col-12">
-								<!--Carousel Started-->
-								<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
-									<div class="carousel-inner ">
-										<!--2 CARD-->
-										<div class="carousel-item active text-center">
-											<div class="card mr-2 d-inline-block shadow-lg">
-												<div class="card-img-top">
-													<img src="img/team/AP.png" alt="Member" class="img-fluid" width="220" height="220 >
-												</div>
-												<div class="card-body">
-													<h3 class="card-title">ALEJANDRO PONCE</h3>
-													<p class="card-text">
-															<p></p>Es Jefe de Investigación del World Justice Project (WJP). Se unió al WJP como Economista Senior y es uno de los diseñadores originales y autor principal del Índice de Estado de Derecho.</p>
-															<br>
-															<p>Lidera las iniciativas de investigación y recopilación de datos del World Justice Project, que abarcan desde la producción del Índice de Estado de Derecho y el Reporte Global de Acceso a la Justicia, hasta el diseño y la implementación de encuestas e investigaciones en Afganistán, Pakistán, la Unión Europea y México.</p>
-															<br>
-															<p>Antes de unirse al World Justice Project, trabajó como investigador en la Universidad de Yale y como economista en el Banco Mundial y en la Comisión Nacional Bancaria y de Valores. Ha llevado a cabo investigaciones en las áreas de economía del comportamiento, inclusión financiera, indicadores de justicia y Estado de derecho, los cuales han sido publicados en monografías y recopilaciones, así como en revistas académicas de primer nivel como American Economic Review y Journal of Law and Economics.</p>
-															<br>
-															<p>Es miembro de varios grupos de expertos internacionales en temas de medición de gobernanza, acceso a la justicia y asistencia legal, y es un orador frecuente en conferencias y foros internacionales en el área de Estado de derecho.</p>
-													</p>
-													<a href="#" class="text-secondary text-decoration-none">Economista e Investigador Académico</a>
-													<p class="text-black-50">Biografía</p>
-												</div>
-											</div>
-										</div>
-										<!--3 CARD-->
-										<div class="carousel-item text-center">
-											<div class="card mr-2 d-inline-block shadow-lg">
-												<div class="card-img-top">
-													<img src="img/team/DA.png" alt="Member" class="img-fluid" width="220" height="220">
-												</div>
-												<div class="card-body">	
-													<h3 class="card-title">DAVID ALCALDE</h3>
-													<p class="card-text">
-														Ha formado parte de la Facultad Menor de Sistemas Digitales y del programa Microsoft Student Partner (MSP).
-														También ha sido becario en el área de Innovación y Tecnología en Palacio de Hierro, y en general ha trabajado en diferentes proyectos involucrados en la creación de sistemas para la automatización de procesos de captura, almacenamiento y descarga de información derivada de procedimientos judiciales, así como en el diseño de simuladores de subastas de radiofrecuencias. Entre sus intereses se encuentran los métodos de minería de datos e inteligencia artificial para el mejoramiento de procesos.
-														Es socio fundador del CIAJ, responsable del área de tecnología y bases de datos.
-													</p>
-													<a href="#" class="text-secondary text-decoration-none">Directora General</a>
-													<p class="text-black-50">Abogada e Investigadora Académica</p>
-												</div>
-											</div>
-										</div>
+							<!--2 CARD-->
+							<div class="carousel-item text-center">
+								<div class="card mr-2 d-inline-block shadow-lg">
+									<div class="card-img-top">
+										<img src="img/team/DA.png" alt="Member" class="img-fluid" width="220" height="220">
+									</div>
+									<div class="card-body">	
+										<h3 class="card-title">DAVID ALCALDE</h3>
+										<p class="card-text">
+										<!-- Ha formado parte de la Facultad Menor de Sistemas Digitales y del programa Microsoft Student Partner (MSP).
+										También ha sido becario en el área de Innovación y Tecnología en Palacio de Hierro, y en general ha trabajado en diferentes proyectos involucrados en la creación de sistemas para la automatización de procesos de captura, almacenamiento y descarga de información derivada de procedimientos judiciales, así como en el diseño de simuladores de subastas de radiofrecuencias. Entre sus intereses se encuentran los métodos de minería de datos e inteligencia artificial para el mejoramiento de procesos.
+										Es socio fundador del CIAJ, responsable del área de tecnología y bases de datos. -->
+										</p>
+										<a href="#" class="text-secondary text-decoration-none">Directora General</a>
+										<p class="text-black-50">Abogada e Investigadora Académica</p>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-4 col-12 text-center	">
+							<!-- 3 CARD-->
+							<div class="carousel-item text-center">
 								<div class="card mr-2 d-inline-block shadow-lg">
 									<div class="card-img-top">
-										<img src="img/team/DR.png" alt="Member" class="img-fluid" width="220" height="220>
+										<img src="img/team/DR.png" alt="Member" class="img-fluid" width="220" height="220">
 									</div>
-									<div class="card-body">
+									<div class="card-body">	
 										<h3 class="card-title">DIANA ROMÁN</h3>
 										<p class="card-text">
-											Se ha desempeñado como investigadora del Departamento Académico de Derecho del ITAM. También ha sido consultora del World Justice Project, así como de diversas agencias del Gobierno Estatal y Federal.
-											Ha sido profesora de derecho laboral y fundamentos del derecho en las universidades del SUNEO en Oaxaca, también ha sido Abogada General de 6 de estas universidades. Ha publicado diversos artículos.
-											Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.
-											Es socia fundadora del CIAJ, responsable del área jurídica e investigación legal aplicada.
 										</p>
-										<a href="#" class="text-secondary text-decoration-none">Directora General</a>
+										<a href="#" class="text-secondary text-decoration-none">Ingeniera en Negocios</a>
+										<p class="text-black-50">Abogada e Investigadora Académica</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-12">
+					<!--Carousel 2 Started-->
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+						<div class="carousel-inner ">
+							<!--4 CARD-->
+							<div class="carousel-item active text-center">
+								<div class="card mr-2 d-inline-block shadow-lg">
+									<div class="card-img-top">
+										<img src="img/team/FO.png" alt="Member" class="img-fluid" width="220" height="220" >
+									</div>
+									<div class="card-body">
+										<h3 class="card-title">FRANZ OBERARZBACHER</h3>
+										<p class="card-text">
+											<!-- <p>Se ha desempeñado como investigador y profesor clínico en el Departamento de Derecho del ITAM. También ha sido consultor del Banco Mundial y Banco Interamericano de Desarrollo, así como de diversas agencias del Gobierno Federal; es miembro del Frente Parlamentario Contra el Hambre, Capítulo México, del equipo legal de FIAN Internacional, y director de investigación jurídica en el Observatorio del Derecho a la Vivienda. Ha publicado diversos artículos y un libro sobre derecho individual del trabajo en México.</p>
+											<br>
+											<p>Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.</p>
+											<br>
+											<p><strong>Es socio fundador del CIAJ, responsable del área jurídica e investigación legal aplicada.</strong></p> -->
+										</p>
+										<a href="#" class="text-secondary text-decoration-none">Abogado e Investigador Académico</a>
+										<p class="text-black-50">Biografía</p>
+									</div>
+								</div>
+							</div>
+							<!--5 CARD-->
+							<div class="carousel-item text-center">
+								<div class="card mr-2 d-inline-block shadow-lg">
+									<div class="card-img-top">
+										<img src="img/team/MV.png" alt="Member" class="img-fluid" width="220" height="220">
+									</div>
+									<div class="card-body">	
+										<h3 class="card-title">MARIANA VAZQUEZ DEL MERCADO</h3>
+										<p class="card-text">
+											<!-- <p>Cuenta con 12 años de experiencia en gestión de programas estratégicos, gestión de personas y gestión legal de ONG. También tiene experiencia en investigación y análisis de políticas públicas de desarrollo social y derechos humanos.</p>
+											<br>
+											<p>Ha trabajado en proyectos de defensa con ONG internacionales y gobiernos centrados en la Ley de Vivienda y Sin Fines de Lucro. Sus intereses incluyen la gestión de proyectos / programas, diseño, orientación, presupuestos y evaluación de programas. Ha participado en la creación, liderazgo y entrenamiento de equipos, redes y empoderamiento de la comunidad.</p> -->
+										</p>
+										<a href="#" class="text-secondary text-decoration-none">Abogada</a>
+										<p class="text-black-50">Biografía</p>
+									</div>
+								</div>
+							</div>
+							<!-- 6 CARD-->
+							<div class="carousel-item text-center">
+								<div class="card mr-2 d-inline-block shadow-lg">
+									<div class="card-img-top">
+										<img src="img/team/RS.png" alt="Member" class="img-fluid" width="220" height="220">
+									</div>
+									<div class="card-body">	
+										<h3 class="card-title">ROBERTO SANCHEZ</h3>
+										<p class="card-text">
+											<!-- <p>Se ha especializado en el análisis de datos enfocado al diseño de política pública, desarrollo de productos de datos y plataformas digitales.
+											<br>
+											<p>Actualmente trabaja como director del laboratorio de ciencia de datos de sedesol desarrollando estrategias de política preventiva y llevando proyectos de colaboración e investigación con instituciones como el Banco Mundial y el Banco Interamericano de Desarrollo.</p> -->
+										</p>
+										<a href="#" class="text-secondary text-decoration-none">Científico de Datos</a>
 										<p class="text-black-50">Abogada e Investigadora Académica</p>
 									</div>
 								</div>
 							</div>
 						</div>
-					</section>
-					
+					</div>
+				</div>
+				<div class="col-md-4 col-12 text-center	">
+					<!--Carousel 3 Started-->
+					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="5000">
+						<div class="carousel-inner ">
+							<!--7 CARD-->
+							<div class="carousel-item active text-center">
+								<div class="card mr-2 d-inline-block shadow-lg">
+									<div class="card-img-top">
+										<img src="img/team/team1.png" alt="Member" class="img-fluid" width="220" height="220" >
+									</div>
+									<div class="card-body">
+										<h3 class="card-title">SEBASTÍAN HERNÁNDEZ</h3>
+										<p class="card-text">
+											<!-- <p>Se ha desarrollado en el ámbito de la justicia laboral y penal a nivel local y federal en México. Es Coordinador Técnico en la Unidad para la Implementación y Consolidación del Nuevo Sistema de Justicia Penal en el Consejo de la Judicatura Federal. Ha participado en investigaciones sobre cortes laborales en México.</p> -->
+										</p>
+										<a href="#" class="text-secondary text-decoration-none">Economista</a>
+										<p class="text-black-50">Biografía</p>
+									</div>
+								</div>
+							</div>
+							<!--8 CARD-->
+							<div class="carousel-item text-center">
+								<div class="card mr-2 d-inline-block shadow-lg">
+									<div class="card-img-top">
+										<img src="img/team/AP.png" alt="Member" class="img-fluid" width="220" height="220">
+									</div>
+									<div class="card-body">	
+										<h3 class="card-title">ALEJANDRO PONCE</h3>
+										<p class="card-text">
+											<!-- <p>Es Jefe de Investigación del World Justice Project (WJP). Se unió al WJP como Economista Senior y es uno de los diseñadores originales y autor principal del Índice de Estado de Derecho.</p>
+											<br>
+											<p>Lidera las iniciativas de investigación y recopilación de datos del World Justice Project, que abarcan desde la producción del Índice de Estado de Derecho y el Reporte Global de Acceso a la Justicia, hasta el diseño y la implementación de encuestas e investigaciones en Afganistán, Pakistán, la Unión Europea y México.</p>
+											<br>
+											<p>Antes de unirse al World Justice Project, trabajó como investigador en la Universidad de Yale y como economista en el Banco Mundial y en la Comisión Nacional Bancaria y de Valores. Ha llevado a cabo investigaciones en las áreas de economía del comportamiento, inclusión financiera, indicadores de justicia y Estado de derecho, los cuales han sido publicados en monografías y recopilaciones, así como en revistas académicas de primer nivel como American Economic Review y Journal of Law and Economics.</p>
+											<br>
+											<p>Es miembro de varios grupos de expertos internacionales en temas de medición de gobernanza, acceso a la justicia y asistencia legal, y es un orador frecuente en conferencias y foros internacionales en el área de Estado de derecho.</p> -->
+										</p>
+										<a href="#" class="text-secondary text-decoration-none">Economista e Investigador Académico</a>
+										<p class="text-black-50">Biografía</p>
+									</div>
+								</div>
+							</div>
+							<!-- 9 CARD-->
+							<div class="carousel-item text-center">
+								<div class="card mr-2 d-inline-block shadow-lg">
+									<div class="card-img-top">
+										<img src="img/team/DK.png" alt="Member" class="img-fluid" width="220" height="220">
+									</div>
+									<div class="card-body">	
+										<h3 class="card-title">DAVID KAPLAN</h3>
+										<p class="card-text">
+											<!-- <p>Es especialista sénior del mercado laboral en la Unidad de Mercados Laborales y Seguridad Social del Banco Interamericano de Desarrollo (BID). Es experto en mercados laborales en países en desarrollo, particularmente en las áreas de regulaciones laborales y seguro social.</p>
+											<br>
+											<p>Su enfoque actual está en el diseño de los sistemas de seguridad social y seguro de desempleo. Actualmente trabaja en evaluaciones de impacto de políticas activas del mercado laboral.</p> -->
+										</p>	
+										<a href="#" class="text-secondary text-decoration-none">Economista e Investigador Académico</a>
+										<p class="text-black-50">Biografía</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer>
 
