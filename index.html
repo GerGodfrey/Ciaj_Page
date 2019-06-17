@@ -175,7 +175,7 @@
 		<!--SECCION 2 SERVICIOS-->
 		<!--son 5 servicios-->
 		<section class="section-2 container-fluid p-0">
-			<div class="cover" id="1">
+			<!-- <div class="cover" id="1">
 				<div class="content text-center">
 					<h1>PRIMERA PROPUESTA</h1>
 					<p>
@@ -192,7 +192,7 @@
 						Recomendar ajustes en los protocolos de captación de información, a fin de mejorar la relevancia y calidad de los datos (qué ingresar y cómo).
 					</p>
 				</div>
-			</div>
+			</div> -->
 
 		</section>
 		<!--SECCION 4 VALORES-->
@@ -329,10 +329,10 @@
 			<div class="team row">
 				<div class="col-md-4 col-12 text-center">
 					<!--Carousel 1 Started-->
-					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+					<div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="3000">
 						<div class="carousel-inner ">
 							<!--1 CARD-->
-							<div class="carousel-item active text-center">
+							<div class="carousel-item active text-center">	
 								<div class="card mr-2 d-inline-block shadow-lg">
 									<div class="card-img-top">
 										<img src="img/team/LO.png" alt="Member" class="img-fluid border-radius" width="220" height="220" >
@@ -340,16 +340,13 @@
 									<div class= "card-body">
 										<h3 class="card-title">LIESEL OBERARZBACHER</h3>
 										<p class="card-text">
-											<!-- <p>Se ha desempeñado como investigadora del Departamento Académico de Derecho del ITAM. También ha sido consultora del World Justice Project, así como de diversas agencias del Gobierno Estatal y Federal.</p>
-											<br>		
-											<p>Ha sido profesora de derecho laboral y fundamentos del derecho en las universidades del SUNEO en Oaxaca, también ha sido Abogada General de 6 de estas universidades. Ha publicado diversos artículos.</p>
-											<br>		
-											<p>Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.</p>
-											<br>		
-											<p><strong>Es socia fundadora del CIAJ, responsable del área jurídica e investigación legal aplicada.</strong></p> -->
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Directora General</a>
-										<p class="text-black-50">Abogada e Investigadora Académica</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalLO">
+											Biografía
+										</button>
+
 									</div>
 								</div>
 							</div>
@@ -367,7 +364,10 @@
 										Es socio fundador del CIAJ, responsable del área de tecnología y bases de datos. -->
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Directora General</a>
-										<p class="text-black-50">Abogada e Investigadora Académica</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalDA">
+											Biografía
+										</button>
 									</div>
 								</div>
 							</div>
@@ -382,7 +382,10 @@
 										<p class="card-text">
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Ingeniera en Negocios</a>
-										<p class="text-black-50">Abogada e Investigadora Académica</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalDR">
+											Biografía
+										</button>
 									</div>
 								</div>
 							</div>
@@ -392,7 +395,7 @@
 				</div>
 				<div class="col-md-4 col-12">
 					<!--Carousel 2 Started-->
-					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+					<div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="3000" >
 						<div class="carousel-inner ">
 							<!--4 CARD-->
 							<div class="carousel-item active text-center">
@@ -409,10 +412,14 @@
 											<br>
 											<p><strong>Es socio fundador del CIAJ, responsable del área jurídica e investigación legal aplicada.</strong></p> -->
 										</p>
-										<a href="#" class="text-secondary text-decoration-none">Abogado e Investigador Académico</a>
-										<p class="text-black-50">Biografía</p>
+										<a href="#" class="text-secondary text-decoration-none">Abogado</a>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalFO">
+											Biografía
+										</button>
 									</div>
 								</div>
+								
 							</div>
 							<!--5 CARD-->
 							<div class="carousel-item text-center">
@@ -428,7 +435,10 @@
 											<p>Ha trabajado en proyectos de defensa con ONG internacionales y gobiernos centrados en la Ley de Vivienda y Sin Fines de Lucro. Sus intereses incluyen la gestión de proyectos / programas, diseño, orientación, presupuestos y evaluación de programas. Ha participado en la creación, liderazgo y entrenamiento de equipos, redes y empoderamiento de la comunidad.</p> -->
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Abogada</a>
-										<p class="text-black-50">Biografía</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalMV">
+											Biografía
+										</button>
 									</div>
 								</div>
 							</div>
@@ -446,10 +456,102 @@
 											<p>Actualmente trabaja como director del laboratorio de ciencia de datos de sedesol desarrollando estrategias de política preventiva y llevando proyectos de colaboración e investigación con instituciones como el Banco Mundial y el Banco Interamericano de Desarrollo.</p> -->
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Científico de Datos</a>
-										<p class="text-black-50">Abogada e Investigadora Académica</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalRS">
+											Biografía
+										</button>
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+					<!--BIOGRAFIAS 2 CON MODAL-->
+
+					<div class="modal" id="myModalFO">
+						<div class="modal-dialog modal-dialog-centered ">
+						  <div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+							  <h4 class="modal-title">FRANZ OBERARZBACHER</h4>
+							  <button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+					  
+							<!-- Modal body -->
+							<div class="modal-body">
+								<p>Se ha desempeñado como investigadora del Departamento Académico de Derecho del ITAM. También ha sido consultora del World Justice Project, así como de diversas agencias del Gobierno Estatal y Federal.</p>
+								<br>
+								<p>Ha sido profesora de derecho laboral y fundamentos del derecho en las universidades del SUNEO en Oaxaca, también ha sido Abogada General de 6 de estas universidades. Ha publicado diversos artículos.</p>
+								<br>
+								<p>Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.</p>
+								<br>
+								<p><strong>Es socia fundadora del CIAJ, responsable del área jurídica e investigación legal aplicada.</strong></p>
+								</p>
+							</div>
+					  
+							<!-- Modal footer -->
+							<div class="modal-footer">
+							  <button id="infoModalC"  type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+					  
+						  </div>
+						</div>
+					</div>
+					<div class="modal" id="myModalMV">
+						<div class="modal-dialog modal-dialog-centered ">
+						  <div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+							  <h4 class="modal-title">MARIANA VAZQUEZ DEL MERCADO</h4>
+							  <button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+					  
+							<!-- Modal body -->
+							<div class="modal-body">
+								<p>Se ha desempeñado como investigadora del Departamento Académico de Derecho del ITAM. También ha sido consultora del World Justice Project, así como de diversas agencias del Gobierno Estatal y Federal.</p>
+								<br>
+								<p>Ha sido profesora de derecho laboral y fundamentos del derecho en las universidades del SUNEO en Oaxaca, también ha sido Abogada General de 6 de estas universidades. Ha publicado diversos artículos.</p>
+								<br>
+								<p>Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.</p>
+								<br>
+								<p><strong>Es socia fundadora del CIAJ, responsable del área jurídica e investigación legal aplicada.</strong></p>
+								</p>
+							</div>
+					  
+							<!-- Modal footer -->
+							<div class="modal-footer">
+							  <button id="infoModalC"  type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+					  
+						  </div>
+						</div>
+					</div>
+					<div class="modal" id="myModalRS">
+						<div class="modal-dialog modal-dialog-centered ">
+						  <div class="modal-content">
+							<!-- Modal Header -->
+							<div class="modal-header">
+							  <h4 class="modal-title">ROBERTO SANCHEZ</h4>
+							  <button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+					  
+							<!-- Modal body -->
+							<div class="modal-body">
+								<p>Se ha desempeñado como investigadora del Departamento Académico de Derecho del ITAM. También ha sido consultora del World Justice Project, así como de diversas agencias del Gobierno Estatal y Federal.</p>
+								<br>
+								<p>Ha sido profesora de derecho laboral y fundamentos del derecho en las universidades del SUNEO en Oaxaca, también ha sido Abogada General de 6 de estas universidades. Ha publicado diversos artículos.</p>
+								<br>
+								<p>Sus intereses incluyen derecho internacional de los derechos humanos, derechos sociales, estudios empíricos aplicados a derecho y optimización de procesos judiciales, mediante el uso de herramientas estadísticas y tecnológicas.</p>
+								<br>
+								<p><strong>Es socia fundadora del CIAJ, responsable del área jurídica e investigación legal aplicada.</strong></p>
+								</p>
+							</div>
+					  
+							<!-- Modal footer -->
+							<div class="modal-footer">
+							  <button id="infoModalC"  type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+					  
+						  </div>
 						</div>
 					</div>
 				</div>
@@ -469,7 +571,10 @@
 											<!-- <p>Se ha desarrollado en el ámbito de la justicia laboral y penal a nivel local y federal en México. Es Coordinador Técnico en la Unidad para la Implementación y Consolidación del Nuevo Sistema de Justicia Penal en el Consejo de la Judicatura Federal. Ha participado en investigaciones sobre cortes laborales en México.</p> -->
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Economista</a>
-										<p class="text-black-50">Biografía</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalSH">
+												Biografía
+										</button>
 									</div>
 								</div>
 							</div>
@@ -491,7 +596,10 @@
 											<p>Es miembro de varios grupos de expertos internacionales en temas de medición de gobernanza, acceso a la justicia y asistencia legal, y es un orador frecuente en conferencias y foros internacionales en el área de Estado de derecho.</p> -->
 										</p>
 										<a href="#" class="text-secondary text-decoration-none">Economista e Investigador Académico</a>
-										<p class="text-black-50">Biografía</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalAP">
+											Biografía
+										</button>
 									</div>
 								</div>
 							</div>
@@ -509,7 +617,10 @@
 											<p>Su enfoque actual está en el diseño de los sistemas de seguridad social y seguro de desempleo. Actualmente trabaja en evaluaciones de impacto de políticas activas del mercado laboral.</p> -->
 										</p>	
 										<a href="#" class="text-secondary text-decoration-none">Economista e Investigador Académico</a>
-										<p class="text-black-50">Biografía</p>
+										<hr>
+										<button id="infoModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalDK">
+											Biografía
+										</button>
 									</div>
 								</div>
 							</div>
@@ -524,7 +635,7 @@
 					<div class="container-fluid padding">
 						<div class="row text-center">
 							<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-								<!-- <img src="img/logo/CIAJ-letras.png w-100 "> -->
+								<img src="img/logo/CIAJ-letras.png">
 								<hr class="light">
 								<p>(55) 5915-6488</p>
 								<p>centrodeinnovacion@ciaj-ac.org</p>
