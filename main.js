@@ -18,3 +18,7 @@ $(window).scroll(function(){
         navi.removeClass("nav-item");
     }
 })
+
+$('.carousel').carousel({
+    pause: "false"
+});
