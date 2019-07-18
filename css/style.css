@@ -30,11 +30,11 @@ section{
   --light-gray: rgba(255,255,255,0.877);
 }
 
-/* header a {
+header a {
   font-family: var(--Snigle-font);
   font-size: 0.9em;
   color: whitesmoke;
-} */
+}
 
 header{
   background-color: #4ea981;
@@ -629,11 +629,7 @@ section{
 
 .section-5 .carousel-item {
   padding-left: 3rem;
-<<<<<<< HEAD
-
-=======
   height: 500px;
->>>>>>> new_Master
 }
 
 .section-5.row{
@@ -680,15 +676,10 @@ background-color: #a5a5af;
 
 /*FOOTER para contacto*/
 footer {
-<<<<<<< HEAD
-    background-color: rgba(28, 160, 212, 0.815);
-    color: var(--light-gray);;
-=======
 /*cambie este color base de contacto*/
     background-color: rgba(119, 201, 222, 0.815);
     color: var(--light-gray);
 
->>>>>>> new_Master
   /*background: rgba(0, 0, 0, 0.815);*/
   overflow-x: hidden;
   padding-top:2rem;
