@@ -328,16 +328,37 @@ header .nav-link:hover {
 /*  Section 2  */
 /*  Section 2  */
 
+.box1{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/jobs.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.box2{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/jobs.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
 
-.cover  {
+.section-2 h1{
+  
+}
+.cover{
   width: 100%;
   height: 55vmin;
-  background: url("img/jobs.jpg");
+  
   background-position: -24rem -19rem;
   background-size: 150%;
   position: relative;
   padding: 10px;
 }
+
+
+
 
 .cover .overlay {
   position: absolute;
