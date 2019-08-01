@@ -569,17 +569,30 @@ section{
   height: 300px;
   overflow: hidden;
   border-radius: 10px;
-  background: #000000;
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  background: #ffffff;
+
   transition: .5s;
    
 }
 .box:hover{
   transform: translateY(-30px);
   box-shadow: 0 50px 50px rgba(0,0,0,.5);
+    background-color: green;
 }
 .box .imgBox{
   position: relative;
+    
+    
+}
+.box .imgBox h3{
+    margin-left: 30%;
+}
+.box .imgBox svg{
+    margin-left: 25%;
+}
+.box .imgBox hr{
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .box .imgBox img{
   transition: .5s;
@@ -612,6 +625,15 @@ section{
   font-size: 18px;
   color: #ffffff;
   font-weight: 400;
+}
+.box hr{
+    border-top: 3px solid green;
+}
+#di{
+        border-top: 3px solid #2e693d;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
 }
 /*AQUI MODIFICO EL ESPACIO ENTRE COLUMNAS*/
 .col-sm-12{
