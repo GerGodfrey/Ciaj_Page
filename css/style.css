@@ -587,6 +587,7 @@ font-size:160%;
 section{
   font-family: 'Raleway', sans-serif !important;
   padding: 120px 0 0;
+
 }
 .box{
   position: relative;
@@ -603,6 +604,12 @@ section{
   transform: translateY(-30px);
   box-shadow: 0 50px 50px rgba(0,0,0,.5);
     background-color: #006BA7;
+    color: #008DDE;
+    fill: #008DDE;
+    
+}
+.val:hover{
+    border-top: 3px solid #008DDE;
 }
 .box .imgBox{
   position: relative;
@@ -652,12 +659,15 @@ section{
   font-weight: 400;
 }
 .box hr{
-<<<<<<< HEAD
+
     border-top: 3px solid #006BA7;
 =======
-    border-top: 3px solid #0032AF;
->>>>>>> 68aaf16db2b22addccf8d0d250a507e863aa7fb7
+
 }
+.box hr:hover{
+    border-top: 3px solid green;
+}
+
 #di{
         border-top: 3px solid #00324F;
     margin-left: 20%;
