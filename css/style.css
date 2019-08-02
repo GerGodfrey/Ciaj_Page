@@ -560,7 +560,7 @@ font-size:160%;
 
 } 
 section{
-  font-family: 'Roboto Condensed', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
   padding: 120px 0 0;
 }
 .box{
@@ -577,7 +577,7 @@ section{
 .box:hover{
   transform: translateY(-30px);
   box-shadow: 0 50px 50px rgba(0,0,0,.5);
-    background-color: green;
+    background-color: #006BA7;
 }
 .box .imgBox{
   position: relative;
@@ -627,10 +627,10 @@ section{
   font-weight: 400;
 }
 .box hr{
-    border-top: 3px solid green;
+    border-top: 3px solid #006BA7;
 }
 #di{
-        border-top: 3px solid #2e693d;
+        border-top: 3px solid #00324F;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 5%;
