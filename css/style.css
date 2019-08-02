@@ -37,26 +37,27 @@ header a {
 }
 
 header{
-  background-color: #4ea981;
+  background-color: #008dde;
   }
 
 
 /*FORMATO AL TEXTO DE LA PRIMERA IMAGEN*/
-/* header .row .col-md-7 {
+header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 15vmin;
   color: black;
   position: absolute;
 } */
 
-/* header .row .col-md-5 {
+header .row .col-md-5 {
   padding: 4.2vmin 1vmin;
-} */
+}
 
 /*TAMAÑO DE LA IMAGEN DE LA PRIMERA PANTALLA*/
-/* header .row .col-md-5 img {
+
+header .row .col-md-5 img {
   width: 90%;
-}  */
+} 
 
 header .container .col-md-7 h6 {
   padding: 1vmin;
@@ -73,7 +74,7 @@ header .container .col-md-7 p {
   padding: 1vmin 5vmin;
 }
 
-/* 
+
 .primary-btn {
   border-radius: 30px;
   font-weight: bold;
@@ -344,9 +345,7 @@ header .nav-link:hover {
   
 }
 
-.section-2 h1{
-  
-}
+
 .cover{
   width: 100%;
   height: 55vmin;
@@ -627,7 +626,11 @@ section{
   font-weight: 400;
 }
 .box hr{
+<<<<<<< HEAD
     border-top: 3px solid #006BA7;
+=======
+    border-top: 3px solid #0032AF;
+>>>>>>> 68aaf16db2b22addccf8d0d250a507e863aa7fb7
 }
 #di{
         border-top: 3px solid #00324F;
@@ -642,49 +645,6 @@ section{
   border-collapse: separate;
   padding-bottom: 35px;
   padding-top: 35px;
-}
-
-
-/* Section 5 Team Carusseles */
-
-.section-5 .container h1 {
-  font-size: 6vmin;
-  padding-top: 14vmin;
-}
-
-.section-5 .team {
-  padding: 10vmin 4vmin;
-}
-
-.section-5 .card {
-  width: 22em;
-  margin-top: 10vmin;
-}
-
-.section-5 .card .card-text {
-  padding: 0.5em;
-}
-
-.section-5 .card-body > a {
-  font-size: 1.5em;
-  height:200px;
-}
-
-.section-5 .carousel-item {
-  padding-left: 3rem;
-  height: 500px;
-}
-
-.section-5.row{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  transform: translate3d(0px, 0px, 0px);
-}
-
-.border-radius {
-  border-radius: 340px;
-  width: 60%;
 }
 
 
@@ -754,7 +714,6 @@ footer input placeholder {
 }
 
 footer .input-group .input-group-text {
-  background: var(--bggradient);
   border: none;
 }
 
