@@ -41,6 +41,8 @@ hr{
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
+    border-color: green;
+    border-width: 100%;
     
 }
 .ps a:hover {
