@@ -177,6 +177,23 @@ header .nav-link:hover {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+nav{
+    background-color: #9091A3;
+    border-bottom-color: red;
+}
+#e:after{
+background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
+  position: absolute;
+  content: '';
+  height: 6px;
+  right: 0;
+  left: 0;
+  top: 0;
+    margin-top: 6%;
+}
+
+
 /* header .nav-item:last-child {
   padding-right: 10.5em;
 } */
@@ -605,6 +622,16 @@ section{
     fill: #008DDE;
     
 }
+.box:hover:after{
+    background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
+  position: absolute;
+  content: '';
+  height: 6px;
+  right: 0;
+  left: 0;
+  top: 0;
+
+}
 .val:hover{
     border-top: 3px solid #008DDE;
 }
@@ -725,6 +752,7 @@ footer {
   padding-top:2rem;
   /*padding: 14vmin 18vmin;*/
     font-family: 'Raleway';
+  
 }
 hr.light{
     border-top: 1px solid var(--light-gray);
