@@ -38,6 +38,7 @@ header a {
 
 header{
   background-color: #008dde;
+    font-family: 'Raleway';
   }
 
 
@@ -581,7 +582,7 @@ font-size:160%;
 
 } 
 section{
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Raleway';
   padding: 120px 0 0;
 
 }
@@ -694,7 +695,8 @@ section{
   -moz-border-radius: 99em;
   border-radius: 5em;
   border: 4px solid #eee;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+    
 }
 /*estilo de loa botones usados*/
 .btn-primary
@@ -704,21 +706,25 @@ section{
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     background-color: #77c9d4;
     border:#a5a5af;
+    
 }
 .btn-primary:hover{
 background-color: #a5a5af;
+    
+    
 }
 
 /*FOOTER para contacto*/
 footer {
 /*cambie este color base de contacto*/
-    background-color: rgba(119, 201, 222, 0.815);
+    background-color: #006BA7;
     color: var(--light-gray);
 
   /*background: rgba(0, 0, 0, 0.815);*/
   overflow-x: hidden;
   padding-top:2rem;
   /*padding: 14vmin 18vmin;*/
+    font-family: 'Raleway';
 }
 hr.light{
     border-top: 1px solid var(--light-gray);
