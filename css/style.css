@@ -739,6 +739,37 @@ footer a {
 
 }
 
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  
+}
+
+.centerVertical{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+ 
+  
+}
+
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #00324F;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+
+
 footer p > span {
   color: #ff512f;
 }
