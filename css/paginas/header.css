@@ -1,0 +1,42 @@
+header a {
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+  }
+
+header{
+    background-color: #008dde;
+    font-family: 'Raleway';
+}
+
+/* header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 15vmin;
+    color: black;
+    position: absolute;
+} */
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+  }
+  
+  /*TAMAÑO DE LA IMAGEN DE LA PRIMERA PANTALLA*/
+  
+  header .row .col-md-5 img {
+    width: 90%;
+  } 
+  
+  header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+  }
+  
+  header .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+  }
+  
+  header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+  }

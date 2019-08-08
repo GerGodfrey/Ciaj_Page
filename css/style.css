@@ -30,50 +30,14 @@ section{
   --light-gray: rgba(255,255,255,0.877);
 }
 
-header a {
-  font-family: var(--Snigle-font);
-  font-size: 0.9em;
-  color: whitesmoke;
-}
 
-header{
-  background-color: #008dde;
-    font-family: 'Raleway';
-  }
+
 
 
 /*FORMATO AL TEXTO DE LA PRIMERA IMAGEN*/
-header .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 15vmin;
-  color: black;
-  position: absolute;
-} */
 
-header .row .col-md-5 {
-  padding: 4.2vmin 1vmin;
-}
 
-/*TAMAÑO DE LA IMAGEN DE LA PRIMERA PANTALLA*/
 
-header .row .col-md-5 img {
-  width: 90%;
-} 
-
-header .container .col-md-7 h6 {
-  padding: 1vmin;
-  letter-spacing: 4px;
-}
-
-header .container .col-md-7 h1 {
-  font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
-}
-
-header .container .col-md-7 p {
-  padding: 1vmin 5vmin;
-}
 
 
 .primary-btn {
@@ -130,11 +94,6 @@ header .container .col-md-7 p {
   background-color: #717171;
 }
 
-/*DESCUBRIR*/
-header .nav-link:hover {
-  color: red;
-}
-
 .nav-item {
   padding: 0.5em;
   text-decoration-color: #eee
@@ -178,10 +137,11 @@ header .nav-link:hover {
   to {opacity: 1}
 }
 
+/* Color del nav */
 nav{
-    background-color: #9091A3;
-    border-bottom-color: red;
+    background-color: white;
 }
+
 #e:after{
 background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
   position: absolute;
@@ -683,20 +643,17 @@ section{
   font-weight: 400;
 }
 .box hr{
-
-    border-top: 3px solid #006BA7;
-=======
-
+  border-top: 3px solid #006BA7;
 }
 .box hr:hover{
     border-top: 3px solid green;
 }
 
 #di{
-        border-top: 3px solid #00324F;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%;
+  border-top: 3px solid #00324F;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
 }
 /*AQUI MODIFICO EL ESPACIO ENTRE COLUMNAS*/
 .col-sm-12{
@@ -741,87 +698,5 @@ background-color: #a5a5af;
     
 }
 
-/*FOOTER para contacto*/
-footer {
-/*cambie este color base de contacto*/
-    background-color: #006BA7;
-    color: var(--light-gray);
-
-  /*background: rgba(0, 0, 0, 0.815);*/
-  overflow-x: hidden;
-  padding-top:2rem;
-  /*padding: 14vmin 18vmin;*/
-    font-family: 'Raleway';
-  
-}
-hr.light{
-    border-top: 1px solid var(--light-gray);
-    width: 75%;
-    margin-top: .8rem;
-    margin-bottom: 1rem;
-}
-
-footer a {
-  color: var(--light-gray);
-    /* color: #d5d5d5; */
-
-}
-
-.centerImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  
-}
-
-.centerVertical{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
- 
-  
-}
-
-.dot {
-  height: 50px;
-  width: 50px;
-  background-color: #00324F;
-  border-radius: 50%;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 5%;
-  margin-right: 5%;
-  
-}
-
-
-
-footer p > span {
-  color: #ff512f;
-}
-
-footer input {
-  border: none !important;
-}
-
-footer input placeholder {
-  color: white !important;
-}
-
-footer .input-group .input-group-text {
-  border: none;
-}
-
-footer .column i {
-  color: #dd2476;
-}
-
-/* It is Adjacent sibling combinator */
-
-footer .column i + i {
-  padding: 0 0.5em;
-}
 
 

@@ -3,8 +3,34 @@
     text-align: center;
     background: #008DDE;
     padding: 60px;
-    
+    margin: 0;
+    perspective: 1px;
+    /* transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden; */
 }
+
+/* .section-5, .section-5::before{
+    background: 50% 50% / cover;
+} */
+
+/* .section-5::before{
+    overflow: hidden;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top:0;
+    display: block;
+    background: url("../img/fondo1.jpeg");
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+} */
 
 .section-5 h1{
     text-transform: uppercase;
@@ -14,7 +40,6 @@
 }
 
 hr{
-   
     border-top: 3px solid #ffffff;
     margin-left: 20%;
     margin-right: 20%;
@@ -41,13 +66,12 @@ hr{
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-    border-color: green;
     border-width: 100%;
     
 }
 .ps a:hover {
     border-radius:10%;  
-   cursor: pointer;
+    cursor: pointer;
     transform: translateY(-30px);
     box-shadow: 0 50px 50px rgba(0,0,0,.5);
 }
@@ -65,7 +89,6 @@ hr{
     filter: none;
     
 }
-
 
 .section{
     width: 600px;
