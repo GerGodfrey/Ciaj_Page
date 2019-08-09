@@ -122,16 +122,6 @@ nav{
     background-color: white;
 }
 
-#e:after{
-background: linear-gradient(to right, #bcbcbc 25%,#ffcd02 25%, #ffcd02 50%, #e84f47 50%, #e84f47 75%, #65c1ac 75%);
-  position: absolute;
-  content: '';
-  height: 6px;
-  right: 0;
-  left: 0;
-  top: 0;
-    margin-top: 6%;
-}
 
 /*estilo de loa botones usados*/
 .btn-primary
