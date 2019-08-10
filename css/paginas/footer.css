@@ -1,8 +1,10 @@
 
 footer {
     /*cambie este color base de contacto*/
+   
     background-color: #006BA7;
     color: var(--light-gray);
+    
 
     /*background: rgba(0, 0, 0, 0.815);*/
     overflow-x: hidden;
