@@ -92,6 +92,9 @@ section .section-7{
     top: 0;
   
   }
+.box img:hover{
+    fill: #008DDE;
+}
   .val:hover{
       border-top: 3px solid #008DDE;
   }
@@ -105,6 +108,10 @@ section .section-7{
   }
   .box .imgBox svg{
       margin-left: 25%;
+  }
+.box .imgBox img{
+      margin-left: 25%;
+    
   }
   .box .imgBox hr{
       margin-left: 25%;
