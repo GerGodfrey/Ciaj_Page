@@ -7,7 +7,7 @@
 header{
   font-family: 'Raleway';
   width: 100%;
-  /* height: 650px; */
+  height: auto;
   background-image: url(../../img/court.jpg);
   background-size: cover;
   position: relative;
@@ -17,46 +17,55 @@ header{
 }
 
 .cover {
-  /* position: absolute; */
+  position: absolute;
   top:0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-color: rgba(30, 161, 221, 0.623);
   background-repeat:repeat; 
 }
 
-
-
 .cover .row .col-md-7 {
-    padding: 22vmin 1vmin;
-    padding-bottom: 15vmin;
-    position: absolute;
-    left: 600px;
-    width: 50%;
+  padding: 22vmin 1vmin;
+  padding-bottom: 15vmin;
+  position: absolute;
+  left: 600px;
+  width: 100%;
+  height: 50%;
+}
+.cover .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+  width: 70%;
+  height: 50%;
 }
 
-.cover .row .col-md-5 {
-    padding: 4.2vmin 1vmin;
-  }
-  
-  /*TAMAÑO DE LA IMAGEN DE LA PRIMERA PANTALLA*/
-  
-  .cover .row .col-md-5 img {
-    width: 50%;
-  } 
-  
-  .cover .container .col-md-7 h6 {
-    padding: 1vmin;
-    letter-spacing: 4px;
-  }
-  
-  .cover .container .col-md-7 h1 {
-    font-size: 8.5vmin;
-    font-weight: bold;
-    padding: 0.1em 0em;
-  }
-  
-  .cover .container .col-md-7 p {
-    padding: 1vmin 5vmin;
-  }
+.cover .row .col-md-5 img{
+  max-width: 100%;
+  height: auto;
+}
+
+.cover .row .col-sm-12 img {
+  max-width: 100%;
+  height: auto;
+}  
+
+.cover .row .col-lg-7 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cover .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+.cover .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+.cover .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
