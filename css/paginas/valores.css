@@ -109,10 +109,29 @@ section .section-7{
   .box .imgBox svg{
       margin-left: 25%;
   }
+/*prueba css */
 .box .imgBox img{
       margin-left: 25%;
     
   }
+/*.icon{
+    width: 150;
+    height: 150;
+    display: inline-block;
+    background-size: cover;
+}
+.confianza {
+  background-image: ;
+}*/
+.imgBox svg{
+    width=150;
+    height=150;
+    
+}
+.img Box svg:hover{
+    fill:red;
+}
+
   .box .imgBox hr{
       margin-left: 25%;
       margin-right: 25%;
@@ -121,10 +140,11 @@ section .section-7{
     transition: .5s;
   
   }
-  .box:hover .imgBox img{
-    opacity: .5;
-    transform: translateY(-40px);
-  
+  .box:hover img{
+    opacity: .100;
+    color: lightcoral;
+    fill:red;
+      
   }
   .box .content{
     position: absolute;
