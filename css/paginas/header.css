@@ -4,7 +4,7 @@
   color: whitesmoke;
 }
 
-header{
+.header{
   font-family: 'Raleway';
   width: 100%;
   height: auto;
@@ -16,7 +16,8 @@ header{
   box-shadow: 2px 2px .9px grey
 }
 
-.cover {
+#headerId{
+  justify-content:center;
   position: absolute;
   top:0;
   left: 0;
@@ -26,6 +27,7 @@ header{
   background-repeat:repeat; 
 }
 
+/* 
 .cover .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 15vmin;
@@ -68,4 +70,4 @@ header{
 
 .cover .container .col-md-7 p {
   padding: 1vmin 5vmin;
-}
+} */
