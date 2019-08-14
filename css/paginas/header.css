@@ -26,6 +26,9 @@
   background-color: rgba(30, 161, 221, 0.623);
   background-repeat:repeat; 
 }
+.header h6{
+    font-size: 24 px;
+}
 
 /* 
 .cover .row .col-md-7 {

@@ -83,7 +83,7 @@ section .section-7{
       
   }
   .box:hover:after{
-      background: #008DDE;
+      background: red;
     position: absolute;
     content: '';
     height: 6px;
