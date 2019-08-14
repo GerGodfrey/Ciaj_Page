@@ -1034,8 +1034,10 @@
 							
 									<div class="row" style="padding-bottom: 40px;padding-top:20px;">
 										<div class="col-md-5 offset-md-1 botonMedia" >
-											<button class="btn btn-primary btn-lg"  style="background-color: #9091A3; margin-right: 10%;">Enviar correo  <i class="far fa-envelope"></i></button>
+											<!--Este botón abre un modal el cual da la opción de mandar un correo electrónico a centrodeinnovacion@ciaj-ac.org-->
+											<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalCorreo" style="background-color: #9091A3; margin-right: 10%;">Enviar correo  <i class="far fa-envelope"></i></button>
 										</div>
+										<!--Este botón abre en una nueva pestaña el messenger de facebook-->
 										<div class="col-md-6 botonMedia">
 											<a href="https://www.messenger.com/t/ciajusticia" target="_blank"><button class="btn btn-primary btn-lg" style="background-color: #9091A3">Enviar messenger  <i class="fab fa-facebook-messenger"></i></button></a>
 										</div>
@@ -1043,20 +1045,53 @@
 									<div class="row">
 										<div class="col-md-12">
 											<span class="dot"><i class="fab fa-twitter fa-lg centerVertical "></i></span>
+											<!--Este botón abre la página prinicpal de CIAJ facebook-->
 											<a href="https://www.facebook.com/ciajusticia" target="_blank"><span class="dot"><i class="fab fa-facebook-square fa-lg centerVertical"></i></span></a>
 										</div>
 									</div>	
 								</div>
 							</div>
 						</div>
+						
 
 			
-					</div>
+					
 				</div>
 				<br>
 			</div>
 		</footer>
 	</section>
+
+	<!--Modal para enviar correo-->
+	<div class="modal fade" id="modalCorreo" tabindex="-1" role="dialog" aria-labelledby="modalCorreo" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle">Nuevo mensaje</h5>
+						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+						  </button>
+					</div>
+					<div class="modal-body">
+						  <form>
+							<div class="form-group">
+								  <label for="correo" class="col-form-label">Correo:</label>
+								  <input type="text" class="form-control" id="correo">
+							</div>
+							<div class="form-group">
+								  <label for="mensaje" class="col-form-label">Mensaje:</label>
+								  <textarea class="form-control" id="mensaje" rows="6"></textarea>
+							</div>
+					  </form>
+					</div>
+					<div class="modal-footer">
+					  <button type="button" class="btn btn-secondary btnCerrar" data-dismiss="modal">Cerrar</button>
+					  <button type="button" class="btn btn-primary btnEnviar">Enviar mensaje</button>
+					</div>
+				  </div>
+			</div>
+		</div>
+	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

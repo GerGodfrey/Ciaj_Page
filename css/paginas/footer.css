@@ -61,6 +61,22 @@ footer {
       vertical-align: middle
       ;padding-bottom: 10px
     }
+
+    .btnEnviar{
+      background-color: #00324F
+    }
+
+    .btnEnviar:hover{
+      background-color: #006BA7
+    }
+
+    .btnCerrar{
+      background-color: #4C4D57
+    }
+
+    .btnCerrar:hover{
+      background-color: #9091A3
+    }
     
     footer p > span {
       color: #ff512f;
