@@ -53,15 +53,16 @@ footer {
       
     }
 
-    .botonMedia{
+    .containerMedia{
       font-size: 16px; 
       font-weight:bold;
-      justify-content: center
-      ;display: flex;
-      vertical-align: middle
-      ;padding-bottom: 10px
+      justify-content: center;
+      display: flex;
+      vertical-align: middle;
+      padding-bottom: 10px
     }
 
+  
     .btnEnviar{
       background-color: #00324F
     }
@@ -70,13 +71,19 @@ footer {
       background-color: #006BA7
     }
 
-    .btnCerrar{
+    .btnGris{
       background-color: #4C4D57
     }
 
-    .btnCerrar:hover{
+    .btnGris:hover{
       background-color: #9091A3
     }
+
+    .fa-facebook-square{
+      color: white
+    }
+
+
     
     footer p > span {
       color: #ff512f;
