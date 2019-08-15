@@ -118,6 +118,8 @@ section{
 /* Color del nav */
 nav{
     background-color: white;
+    box-shadow: 0 5px 5px rgba(0,0,0,.5);
+    font-size: 24px;
 }
 
 

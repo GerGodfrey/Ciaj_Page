@@ -13,7 +13,7 @@
   position: relative;
   overflow: hidden;
   background-repeat: no-repeat;
-  box-shadow: 2px 2px .9px grey
+  box-shadow: 1px 1px .9px grey
 }
 
 #headerId{
@@ -26,7 +26,15 @@
   background-color: rgba(30, 161, 221, 0.623);
   background-repeat:repeat; 
 }
+.header h6{
+    font-size: 24 px;
+}
 
+/* .imgcenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
 /* 
 .cover .row .col-md-7 {
   padding: 22vmin 1vmin;
