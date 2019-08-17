@@ -94,10 +94,6 @@ section{
 
 /*BARRA QUE APARECE DESPUES EN LA PARTE SUPERIOR*/
 
-
-.nav-link{
-  color: #57bc90;
-}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -117,9 +113,9 @@ section{
 
 /* Color del nav */
 nav{
-    background-color: white;
-    box-shadow: 0 5px 5px rgba(0,0,0,.5);
-    font-size: 22px;
+  background-color: white;
+  box-shadow: 0 3px 3px rgba(0,0,0,.5);
+  font-size: 18px;
 }
 
 

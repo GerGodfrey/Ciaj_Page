@@ -129,9 +129,8 @@ section .section-7{
     
 }
 
-
 .imgBox svg:hover{
-    fill:red;
+    fill-opacity: .5;
 }
 
 .box .imgBox hr{
