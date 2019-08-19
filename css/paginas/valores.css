@@ -2,7 +2,9 @@
 
 section .section-7{
     background: #15181a;
-    color: #eee
+    color: #eee;
+    
+  
   }
   @media (max-width: 992px) {
   
@@ -61,6 +63,7 @@ section .section-7{
   section{
     font-family: 'Raleway';
     padding: 120px 0 0;
+    
   
   }
   .box{
@@ -72,8 +75,12 @@ section .section-7{
     background: #ffffff;
   
     transition: .5s;
+      
+    
+    
      
   }
+
   .box:hover{
     transform: translateY(-30px);
     box-shadow: 0 50px 50px rgba(0,0,0,.5);
@@ -134,11 +141,12 @@ section .section-7{
 }
 
 .box .imgBox hr{
-  margin-left: 25%;
-  margin-right: 25%;
+  align-content: center;
 }
+
   .box .imgBox img{
     transition: .5s;
+      align-content: center;
   
   }
   .box:hover img{
@@ -178,10 +186,11 @@ section .section-7{
   }
   
   #di{
+    align-content: center;
     border-top: 3px solid #00324F;
-    margin-left: 20%;
+   /* margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 5%;
+    margin-bottom: 5%;*/
   }
   /*AQUI MODIFICO EL ESPACIO ENTRE COLUMNAS*/
   .col-sm-12{
