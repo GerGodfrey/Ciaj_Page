@@ -6,14 +6,19 @@
 
 .header{
   font-family: 'Raleway';
-  width: 100%;
-  height: auto;
   background-image: url(../../img/court.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
   background-repeat: no-repeat;
   box-shadow: 1px 1px .9px grey
+}
+
+.header img{
+  max-width: 100%;
+  height: auto;
 }
 
 #headerId{
