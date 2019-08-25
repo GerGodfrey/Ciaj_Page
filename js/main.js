@@ -27,6 +27,8 @@ $('.carousel').carousel({
 
 $(document).ready(function() {
 
+  let oTop = $(".skw-pages").offset().top;
+
     var curPage = 1;
     var numOfPages = $(".skw-page").length;
     var animTime = 1000;
