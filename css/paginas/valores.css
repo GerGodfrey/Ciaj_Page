@@ -1,20 +1,36 @@
 /* Section 4  VALORES*/
 
-section .section-7{
+/* section .section-7{
   background: #15181a;
   color: #eee;  
+} */
+
+section{
+  font-family: 'Raleway';
+  padding: 60px 0 0;
 }
-  @media (max-width: 992px) {
+
+/*AQUI MODIFICO EL ESPACIO ENTRE COLUMNAS*/
+.col-sm-12{
+  padding: 20px;
+  border-spacing: 50px 0;
+  border-collapse: separate;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+@media (max-width: 992px) {
   
-  }
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
   .caroussel-caption{
-   top:45%;
+  top:45%;
   }
   
-  .caroussel-caption h1{
+  /* .caroussel-caption h1{
   font-size: 350%;
   }
+
   .caroussel-caption h3{
   font-size: 140%;
   font-weight:400;
@@ -24,15 +40,16 @@ section .section-7{
   font-size: 95%;
   padding-bottom: 8px 14px;
   background-color:#a5a5af;
-  }
+  } */
   
-  .display-4{
+  /* .display-4{
   font-size:200%;
-  }
-  }
-  @media (max-width: 576px) {
+  } */
+}
+
+@media (max-width: 576px) {
   
-  .caroussel-caption{
+  /* .caroussel-caption{
    top:40%;
   }
   .caroussel-caption h1{
@@ -46,75 +63,176 @@ section .section-7{
   font-size: 90%;
   padding-bottom: 4px 8px;
   background-color:#a5a5af;
-  }
+  } */
   
-  .carousel-indicators{
+  /* .carousel-indicators{
   display: none;
   
-  }
+  } */
   .display-4{
   font-size:160%;
-  
-  }
-  
-  } 
-
-  section{
-    font-family: 'Raleway';
-    padding: 60px 0 0;
   }
 
-  .box{
-    position: relative;
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    background: #ffffff;
-    transition: .5s;
-     
-  }
+} 
 
-  .box:hover{
-    transform: translateY(-30px);
-    box-shadow: 0 50px 50px rgba(0,0,0,.5);
-    background-color: #006BA7;
-    color: #008DDE;
-    fill: #008DDE;
-      
-  }
-  .box:hover:after{
-    /* background: red; */
-    position: absolute;
-    content: '';
-    height: 6px;
-    right: 0;
-    left: 0;
-    top: 0;
-  
-  }
-.box img:hover{
-    fill: #008DDE;
+
+.box{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #ffffff;
+  transition: .5s;
+}   
+.box .imgBox{
+  position: center;     
 }
-  .val:hover{
-    border-top: 3px solid #008DDE;
-  }
 
-  .box .imgBox{
-    position: relative;    
-  }
+.box .imgBox svg{
+  margin-left: 25%;
+  transition: .5s;
+  align-content: center;
+}
 
-  .box .imgBox h3{
-      margin-left: 30%;
-  }
-  .box .imgBox svg{
-      margin-left: 25%;
-  }
-/*prueba css */
-.box .imgBox img{
-      margin-left: 25%;
+.box .imgBox hr{
+  align-content: center;
+}
+
+.box hr{
+  border-top: 3px solid #006BA7;
+  align-content: center;
+}
+
+.box .imgBox h3{
+  margin-left: 0%;
+  text-align: center;
+}
+
+
+.box .content{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+  opacity: 0;
+  align-content: center;
+}
+
+
+
+.box .content h3{
+  position: relative;
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 700px;
+  align-content: center;
+}
+
+.box .content p{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.my-svg-alternate {
+  width: 200px;
+  height: 160px;
+  background-image: url(../../img/valores/confianza.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: relative;
+}
+
+.my-svg-calidad {
+  width: 200px;
+  height: 160px;
+  background-image: url(../../img/valores/medal.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: relative;
+}
+
+.my-svg-experiencia {
+  width: 200px;
+  height: 160px;
+  background-image: url(../../img/valores/experiencia.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: relative;
+}
+
+.my-svg-colaboracion {
+  width: 200px;
+  height: 160px;
+  background-image: url(../../img/valores/colaboracion.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: relative;
+}
+
+.my-svg-internacional {
+  width: 200px;
+  height: 160px;
+  background-image: url(../../img/valores/internacional.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: relative;
+}
+.my-svg-innovacion {
+  width: 200px;
+  height: 160px;
+  background-image: url(../../img/valores/innovation-2.svg);
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: relative;
+}
+
+.box:hover{
+  transform: translateY(-30px);
+  box-shadow: 0 50px 50px rgba(0,0,0,.5);
+  background-color: #006BA7;
+  /*COLOR DEL TEXTO*/
+  color: #006BA7;
+  
+  /* COLOR DEL ICONO
+  fill: #008DDE; */
     
-  }
+}
+
+.box:hover:after{
+  position: absolute;
+  content: '';
+  height: 6px;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.imgBox svg:hover{
+  fill-opacity: .5;
+}
+
+.box:hover svg{
+  opacity: .300;
+  color: red;
+}
+
+.box:hover .content{
+  position: absolute; 
+  opacity: 1;
+  align-content: center;
+}
+
+/* .box svg:hover{
+fill: #008DDE;
+} */
+
 /*.icon{
     width: 150;
     height: 150;
@@ -124,93 +242,19 @@ section .section-7{
 .confianza {
   background-image: ;
 }*/
-.imgBox svg{
+/* .imgBox svg{
   width:150;
   height:150;
-    
+} */
+
+
+
+/* .SVGconfianza{
+  background-image: url(../../img/valores/confianza.svg);
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
-.imgBox svg:hover{
-    fill-opacity: .5;
-}
-
-.box .imgBox hr{
-  align-content: center;
-}
-
-  .box .imgBox img{
-    transition: .5s;
-      align-content: center;
-  
-  }
-  .box:hover img{
-    opacity: .100;
-    color: lightcoral;
-    /* fill:blue; */
-      
-  }
-  .box .content{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: .5s;
-    opacity: 0;
-  }
-  .box:hover .content{
-    bottom: 0; 
-    opacity: 1;
-  }
-  .box .content h3{
-    font-size: 48px;
-    color: #ffffff;
-    font-weight: 700px;
-  }
-  .box .content p{
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 400;
-  }
-  .box hr{
-    border-top: 3px solid #006BA7;
-  }
-  .box hr:hover{
-      border-top: 3px solid green;
-  }
-  
-  #di{
-    align-content: center;
-    border-top: 3px solid #00324F;
-   /* margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 5%;*/
-  }
-  /*AQUI MODIFICO EL ESPACIO ENTRE COLUMNAS*/
-  .col-sm-12{
-    padding: 20px;
-    border-spacing: 50px 0;
-    border-collapse: separate;
-    padding-bottom: 35px;
-    padding-top: 35px;
-  }
-  
-  .SVGconfianza{
-    background-image: url(../../img/valores/confianza.svg);
-    background-repeat: no-repeat;
-    align-items: center;
-  }
-
-  .SVGconfianza:hover{
-    fill: red;
-  }
-
-  .my-svg-alternate {
-    display: none;
-  }
-  .no-svg .my-svg-alternate {
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-image: url(image.png);
-  } 
+.SVGconfianza:hover{
+  fill: red;
+} */
