@@ -2,7 +2,7 @@
     overflow: hidden;
     text-align: center;
     background: #008DDE;
-    padding: 60px;
+    padding: 30px;
     margin: 0;
     perspective: 1px;
     font-family: 'Raleway';
@@ -10,9 +10,15 @@
 
 .section-5 h1{
     text-transform: uppercase;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     color: #ffffff;
     font-size: 40px;
+}
+
+.textoBio{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 hr{
