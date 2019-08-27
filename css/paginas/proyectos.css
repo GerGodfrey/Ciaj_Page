@@ -138,3 +138,23 @@
 #Nosotros{
     font-family: 'Raleway';
 }
+#p1{
+    box-shadow: 0 5px 5px rgba(0,0,0,.5);
+    
+    background-color: #008DDE;
+
+}
+#Proyectos img{
+    padding-top: 30px;
+}
+#Proyectos h3{
+    background-color: #008DDE;
+}
+#1{
+    background-image: url('img/Proyectos/1.jpg');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:200px;
+	width:200px;
+}
