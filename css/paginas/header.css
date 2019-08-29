@@ -6,7 +6,7 @@
 
 .header{
   font-family: 'Raleway';
-  background-image: url(../../img/court.jpg);
+  background-image: linear-gradient(rgba(54, 139, 219, 0.5), rgba(13, 124, 228, 0.767)), url(../../img/court.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; /*cover*/
@@ -34,60 +34,10 @@
     font-size: 24 px;
 }
 
-/* .imgcenter{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
-/* 
-.cover .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 15vmin;
-  position: absolute;
-  left: 600px;
-  width: 100%;
-  height: 50%;
-}
-.cover .row .col-md-5 {
-  padding: 4.2vmin 1vmin;
-  width: 70%;
-  height: 50%;
-}
-
-.cover .row .col-md-5 img{
-  max-width: 100%;
-  height: auto;
-}
-
-.cover .row .col-sm-12 img {
-  max-width: 100%;
-  height: auto;
-}  
-
-.cover .row .col-lg-7 img {
-  max-width: 100%;
-  height: auto;
-}
-
-.cover .container .col-md-7 h6 {
-  padding: 1vmin;
-  letter-spacing: 4px;
-}
-
-.cover .container .col-md-7 h1 {
-  font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
-}
-
-.cover .container .col-md-7 p {
-  padding: 1vmin 5vmin;
-} */
-
 @media only screen and (max-width: 600px){
   .header{
     font-family: 'Raleway';
-    background-image: url(../../img/court2jpg.jpg);
+    background-image:linear-gradient(rgba(54, 139, 219, 0.5), rgba(13, 124, 228, 0.767)), url(../../img/court2jpg.jpg);;
     background-repeat: repeat;
     height: auto;
     width: 100%;
@@ -97,7 +47,7 @@
 @media only screen and (max-width: 768px){
   .header{
     font-family: 'Raleway';
-    background-image: url(../../img/court768.jpg);
+    background-image: linear-gradient(rgba(54, 139, 219, 0.5), rgba(13, 124, 228, 0.767)), url(../../img/court768.jpg);
     background-repeat: repeat;
     height: auto;
     width: 100%;
