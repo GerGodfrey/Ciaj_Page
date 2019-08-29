@@ -7,19 +7,17 @@
 .header{
   font-family: 'Raleway';
   background-image: url(../../img/court.jpg);
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; /*cover*/
+  /* background-attachment: fixed; 
   position: relative;
   overflow: hidden;
-  background-repeat: no-repeat;
-  box-shadow: 1px 1px .9px grey
+  box-shadow: 1px 1px .9px grey; */
+  height: 100%;
+  width: 100%;
 }
 
-.header img{
-  max-width: 100%;
-  height: auto;
-}
 
 #headerId{
   justify-content:center;
@@ -31,6 +29,7 @@
   background-color: rgba(30, 161, 221, 0.623);
   background-repeat:repeat; 
 }
+
 .header h6{
     font-size: 24 px;
 }
@@ -84,3 +83,23 @@
 .cover .container .col-md-7 p {
   padding: 1vmin 5vmin;
 } */
+
+@media only screen and (max-width: 600px){
+  .header{
+    font-family: 'Raleway';
+    background-image: url(../../img/court2jpg.jpg);
+    background-repeat: repeat;
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .header{
+    font-family: 'Raleway';
+    background-image: url(../../img/court768.jpg);
+    background-repeat: repeat;
+    height: auto;
+    width: 100%;
+  }
+}
