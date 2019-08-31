@@ -137,3 +137,12 @@
   .skw-page-5 .skw-page__half--right .skw-page__content {
     background: #292929;
   }
+
+.rr{
+    z-index: 1000;
+    position: absolute;
+    margin-top: 25%;
+}
+
+
+
