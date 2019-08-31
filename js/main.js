@@ -59,14 +59,14 @@ $(document).ready(function() {
       pagination();
     };
   
-    $(document).on("mousewheel DOMMouseScroll", function(e) {
+    /**$(document).on("mousewheel DOMMouseScroll", function(e) {
       if (scrolling) return;
       if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
         navigateUp();
       } else { 
         navigateDown();
       }
-    });
+    });**/
   
     $(document).on("keydown", function(e) {
       if (scrolling) return;
@@ -76,5 +76,12 @@ $(document).ready(function() {
         navigateDown();
       }
     });
+    $("#der").click(function(e){
+    navigateDown();
+});
+    
+    $("#izq").click(function(e){
+    navigateUp();
+});
   
 });
