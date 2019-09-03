@@ -85,3 +85,24 @@ $(document).ready(function() {
 });
   
 });
+
+// Función para desplegar y ocultar las biografias de los integrantes
+$(".dispBio").bind("click", function(e) {
+  e.preventDefault();
+  var ref = $(this).attr("href");
+  var disp = $(ref).css("display");
+  $("#p1").css("display","none");
+  $("#p2").css("display","none");
+  $("#p3").css("display","none");
+  $("#p4").css("display","none");
+  $("#p5").css("display","none");
+  $("#p6").css("display","none");
+  $("#p7").css("display","none");
+  if(disp == "inline"){
+    $(ref).css("display","none");
+  }else{
+    $(ref).css("display","inline");
+  }
+  
+  
+});
