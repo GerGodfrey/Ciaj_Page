@@ -139,9 +139,9 @@
     font-family: 'Raleway';
 }
 #proyecto1{
-    box-shadow: 0 5px 5px rgba(0,0,0,.5);
-    
-    background-color: #008DDE;
+
+    background-image: url("../../img/Proyectos/1.jpg");
+    background-repeat: no-repeat;
 
 }
 #Proyectos img{
