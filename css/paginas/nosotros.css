@@ -139,18 +139,22 @@
   }
 
 .rr{
-    z-index: 1000;
-    position: absolute;
-    margin-top: 25%;
+  z-index: 1000;
+  position: absolute;
+  margin-top: 25%;
 }
 
 .btN{
-    
-    opacity: .5;
-    
+  opacity: .5; 
+  color: #fff;
+  fill: #fff; 
 }
 .btN:hover{
-    opacity: 1;
-    transition: 2;
+  opacity: 1;
+  transition: 2;
 }
+
+/* #der{
+  padding-right: 100%;
+} */
 
