@@ -142,19 +142,30 @@
 
     background-image: url("../../img/Proyectos/1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+  padding:150px;
+
+}
+#proyecto2{
+
+    background-image: url("../../img/Proyectos/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+  padding: 150px;
 
 }
 #Proyectos img{
     padding-top: 30px;
 }
-#Proyectos h3{
+#Proyectos h1{
     background-color: #008DDE;
+    text-align: center;
 }
 #1{
     background-image: url('img/Proyectos/1.jpg');
-	background-position:center;
 	background-repeat:no-repeat;
-	background-size:cover;
-	height:200px;
-	width:200px;
+	background-size: auto;
+
 }
