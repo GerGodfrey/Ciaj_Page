@@ -112,13 +112,38 @@ section{
 
 .box .content{
   position: absolute;
-  bottom: 0px;
+  
+  bottom: 0%;
   left: 0px;
   padding: 20px;
   box-sizing: border-box;
   transition: .5s;
   opacity: 0;
   align-content: center;
+}
+
+.confianza{
+  position: absolute;
+  top: 9%;
+  bottom: 0%;
+}
+
+.inovacion{
+  position: absolute;
+  top: 10%;
+  bottom: 0%;
+}
+
+.experiencia{
+  position: absolute;
+  top: 3%;
+  bottom: 0%;
+}
+
+.internacional{
+  position: absolute;
+  top: 4%;
+  bottom: 0%;
 }
 
 
