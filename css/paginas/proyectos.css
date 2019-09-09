@@ -144,8 +144,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;
-  padding:150px;
+    padding:150px;
+    
 
+}
+#proyecto1 p{
+    text-align: center;
+    color:black;
+}
+#proyecto2 p{
+    text-align: center;
+    color:black;
 }
 #proyecto2{
 
@@ -155,6 +164,9 @@
     border: 2px solid black;
   padding: 150px;
 
+}
+.etiqueta{
+    background-color: white;
 }
 #Proyectos img{
     padding-top: 30px;
