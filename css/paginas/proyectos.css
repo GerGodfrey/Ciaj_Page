@@ -206,7 +206,7 @@ SE HACE MAS OBSCURO
 }
 #proyecto1{
 
-    background-image: url("../../img/Proyectos/1.jpg");
+    background-image:linear-gradient(rgba(122, 129, 142,0.5), rgba(122, 129, 142, 0.767)) url("../../img/Proyectos/1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;
@@ -224,7 +224,8 @@ SE HACE MAS OBSCURO
 }
 #proyecto2{
 
-    background-image: url("../../img/Proyectos/2.jpg");
+    background-image:
+        linear-gradient(rgba(122, 129, 142,0.5), rgba(122, 129, 142, 0.767)),url("../../img/Proyectos/2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid black;
