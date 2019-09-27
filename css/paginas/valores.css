@@ -101,7 +101,7 @@ section{
 }
 
 .box hr{
-  border-top: 3px solid #006BA7;
+  border-top: 3px solid #4C4D57;
   align-content: center;
 }
 
@@ -256,9 +256,9 @@ section{
 .box:hover{
   transform: translateY(-30px);
   
-  background-color: #006BA7;
+  background-color: #4C4D57;
   /*COLOR DEL TEXTO*/
-  color: #006BA7;
+  color: #4C4D57;
   
   /* COLOR DEL ICONO
   fill: #008DDE; */
