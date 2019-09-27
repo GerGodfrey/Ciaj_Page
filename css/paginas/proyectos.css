@@ -15,7 +15,16 @@
     display: table-cell;
     vertical-align: middle;
   }
-
+#Proyectos .tituloProyectos{
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+#Proyectos .desc{
+    text-align: center;
+    font-size: 30px;
+    color: darkgrey;
+}
   .box1{
     height: 50vh;
     width: 100%;
