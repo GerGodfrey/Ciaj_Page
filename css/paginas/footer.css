@@ -49,7 +49,7 @@ footer {
     .dot {
       height: 50px;
       width: 50px;
-      background-color: #00324F;
+      background-color: #4C4D57;
       border-radius: 50%;
       display: inline-block;
       vertical-align: middle;
@@ -67,7 +67,12 @@ footer {
       padding-bottom: 10px
     }
 
-  
+    .equalAlign{
+      display:flex; 
+      justify-content: center;
+      align-items: center;
+    }
+    
     .btnEnviar{
       background-color: #00324F
     }
