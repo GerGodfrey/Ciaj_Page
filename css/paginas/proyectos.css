@@ -22,8 +22,9 @@
 }
 #Proyectos .desc{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: darkgrey;
+    padding: 40px;
 }
   .box1{
     height: 50vh;
@@ -33,6 +34,7 @@
     background-position: center;
     display: table;
     background-attachment: fixed;
+    font-family:'Raleway';
   }
 
   .box2{

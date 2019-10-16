@@ -40,48 +40,10 @@ section{
   top:45%;
   }
   
-  /* .caroussel-caption h1{
-  font-size: 350%;
-  }
-
-  .caroussel-caption h3{
-  font-size: 140%;
-  font-weight:400;
-  padding-bottom: .2rem;
-  }
-  .caroussel-caption .btn{
-  font-size: 95%;
-  padding-bottom: 8px 14px;
-  background-color:#a5a5af;
-  } */
-  
-  /* .display-4{
-  font-size:200%;
-  } */
 }
 
 @media (max-width: 576px) {
-  
-  /* .caroussel-caption{
-   top:40%;
-  }
-  .caroussel-caption h1{
-  font-size: 250%;
-  }
-  .caroussel-caption h3{
-  font-size: 110%;
-  
-  }
-  .caroussel-caption .btn{
-  font-size: 90%;
-  padding-bottom: 4px 8px;
-  background-color:#a5a5af;
-  } */
-  
-  /* .carousel-indicators{
-  display: none;
-  
-  } */
+
   .display-4{
   font-size:160%;
   }
@@ -121,12 +83,13 @@ section{
 .box .imgBox h3{
   margin-left: 0%;
   text-align: center;
+  width: 100%;
 }
 
 
 .box .content{
   position: absolute;
-  
+  width: 100%;
   bottom: 0%;
   left: 0px;
   padding: 20px;
@@ -173,12 +136,12 @@ section{
 }
 
 .box .content h3{
-  position: relative;
+  
   text-align: center;
-  font-size: 48px;
+  font-size: 44px;
   color: #ffffff;
   font-weight: 700px;
-  align-content: center;
+  
 }
 
 .box .content p{
