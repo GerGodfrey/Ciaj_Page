@@ -23,19 +23,17 @@ section{
 
   .box:hover{
     transform: translateY(-30px);
-    
     background-color: red;
-    /*COLOR DEL TEXTO*/
     color: red;
-    
-    /* COLOR DEL ICONO
-    fill: #008DDE; */
-      
   }
 }
 
 @media (max-width: 768px) {
-
+  .box:hover{
+    transform: translateY(-30px);
+    background-color: red;
+    color: red;
+  }
   .caroussel-caption{
   top:45%;
   }
@@ -43,7 +41,11 @@ section{
 }
 
 @media (max-width: 576px) {
-
+  .box:hover{
+    transform: translateY(-30px);
+    background-color: red;
+    color: red;
+  }
   .display-4{
   font-size:160%;
   }
