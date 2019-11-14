@@ -19,16 +19,20 @@ section{
   padding-bottom: 35px;
   padding-top: 35px;
 }
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
 
   .box:hover{
     transform: translateY(-30px);
     background-color: red;
     color: red;
   }
+  .box hr{
+    border-top: 3px solid red;
+    align-content: center;
+  } 
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .box:hover{
     transform: translateY(-30px);
     background-color: red;
@@ -36,6 +40,10 @@ section{
   }
   .caroussel-caption{
   top:45%;
+  }
+  .box hr{
+    border-top: 3px solid red;
+    align-content: center;
   }
   
 }
@@ -45,6 +53,10 @@ section{
     transform: translateY(-30px);
     background-color: red;
     color: red;
+  }
+  .box hr{
+    border-top: 3px solid red;
+    align-content: center;
   }
   .display-4{
   font-size:160%;
